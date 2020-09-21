@@ -40,23 +40,6 @@ alert(`The action taken was: You chose the array ${withMarmaduke} \n The remaini
 break;
 
 default:
-alert('Have a great day!');
-}
+alert('See ya later!');
+} 
 
-/*Scenario AB*/
-
-let deletePets=petNames.shift()
-alert(`The action taken was: Remove the front item of the array \n The remianing data are: ${petNames}`);
-
-let addBarney=petNames.unshift('Barney')
-alert(`The action taken was: Add Barney to the array \n The remaining data are: ${petNames}`);
-
-let allPets=petNames.push(['Ted', ' Fred', ' Jed', ' Ned', ' Ed', ' Zed'])
-alert(`The action taken was: Addition of 6 more pet names to the array \n The remaining data are: ${petNames}`);
-
-let addPets= ['Bob, Sam, Andy']
-let stringPets= petNames.concat(addPets)
-alert(`The action taken was: Add new pets \n The remaining data are: ${stringPets}`);
-
-let addAgnes= petNames.unshift('Agnes')
-alert(`The action taken was: Adding Agnes \n The remaining data are: ${petNames}`);
